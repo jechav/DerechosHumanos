@@ -477,8 +477,8 @@ li p, .art-postcontent li p, .art-blockcontent li p
 
 .art-nav
 {
+
   background: #F5F5F5;
-  border: 20px solid #F5F5F5;
   border-top: none;
   border-bottom: none;
   margin: 0 auto;
@@ -552,8 +552,6 @@ ul.art-hmenu
   min-width: 700px;
   max-width: 1920px;
   width: 100%;
-  padding-left: 0;
-  padding-right: 0;
 }
 
 .art-hmenu-extra1
@@ -2862,12 +2860,11 @@ ul.categories-module li h1, ul.categories-module li h2, ul.categories-module li 
 .art-blockheader .t, .art-vmenublockheader .t {white-space: nowrap;}
 /* End Additional CSS Styles */
 ul.sdt_menu{
-  margin:0;
-  padding:0;
+  margin-left: 3%;
   list-style: none;
   font-family:"Myriad Pro", "Trebuchet MS", sans-serif;
-  font-size:14px;
-  width:1020px;
+  font-size:8px;
+  width:97%;
 }
 ul.sdt_menu a{
   text-decoration:none;
@@ -2875,7 +2872,7 @@ ul.sdt_menu a{
 }
 ul.sdt_menu li{
   float:left;
-  width:170px;
+  width:175px;
   height:85px;
   position:relative;
   cursor:pointer;
@@ -2884,7 +2881,7 @@ ul.sdt_menu li > a{
   position:absolute;
   top:0px;
   left:0px;
-  width:170px;
+  width:175px;
   height:85px;
   z-index:12;
   background:transparent url(../images/overlay.png) no-repeat bottom right;
@@ -2933,7 +2930,7 @@ ul.sdt_menu li div.sdt_box a{
 }
 ul.sdt_menu li span span.sdt_link{
   color:#fff;
-  font-size:24px;
+  font-size:18px;
   float:left;
   clear:both;
 }
