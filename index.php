@@ -69,17 +69,19 @@ JHtml::_('behavior.framework', true);
                     
 </header>
 <?php if ($view->containsModules('position-1', 'position-28', 'position-29')) : ?>
+<div id="navegacion">
 <nav class="art-nav">
     
-<?php if ($view->containsModules('position-28')) : ?>
-<div class="art-hmenu-extra1"><?php echo $view->position('position-28'); ?></div>
-<?php endif; ?>
-<?php if ($view->containsModules('position-29')) : ?>
-<div class="art-hmenu-extra2"><?php echo $view->position('position-29'); ?></div>
-<?php endif; ?>
-<?php echo $view->position('position-1'); ?>
+    <?php if ($view->containsModules('position-28')) : ?>
+    <div class="art-hmenu-extra1"><?php echo $view->position('position-28'); ?></div>
+    <?php endif; ?>
+    <?php if ($view->containsModules('position-29')) : ?>
+    <div class="art-hmenu-extra2"><?php echo $view->position('position-29'); ?></div>
+    <?php endif; ?>
+    <?php echo $view->position('position-1'); ?>
  
-    </nav>
+</nav>
+</div>
 <?php endif; ?>
 <div class="art-sheet clearfix">
             <?php echo $view->position('position-15', 'art-nostyle'); ?>

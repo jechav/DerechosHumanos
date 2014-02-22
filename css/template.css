@@ -478,7 +478,18 @@ li p, .art-postcontent li p, .art-blockcontent li p
 .art-nav
 {
 
-  background: #F5F5F5;
+background-image: -webkit-gradient(
+	linear,
+	left top,
+	left bottom,
+	color-stop(0.27, #8F6E21),
+	color-stop(1, #D19C17)
+);
+background-image: -o-linear-gradient(bottom, #8F6E21 27%, #D19C17 100%);
+background-image: -moz-linear-gradient(bottom, #8F6E21 27%, #D19C17 100%);
+background-image: -webkit-linear-gradient(bottom, #8F6E21 27%, #D19C17 100%);
+background-image: -ms-linear-gradient(bottom, #8F6E21 27%, #D19C17 100%);
+background-image: linear-gradient(to bottom, #8F6E21 27%, #D19C17 100%);
   border-top: none;
   border-bottom: none;
   margin: 0 auto;
@@ -551,7 +562,7 @@ ul.art-hmenu
 {
   min-width: 700px;
   max-width: 1920px;
-  width: 100%;
+  width: 1225px;
 }
 
 .art-hmenu-extra1
@@ -2860,11 +2871,11 @@ ul.categories-module li h1, ul.categories-module li h2, ul.categories-module li 
 .art-blockheader .t, .art-vmenublockheader .t {white-space: nowrap;}
 /* End Additional CSS Styles */
 ul.sdt_menu{
-  margin-left: 3%;
   list-style: none;
   font-family:"Myriad Pro", "Trebuchet MS", sans-serif;
   font-size:8px;
-  width:97%;
+  width:100%;
+
 }
 ul.sdt_menu a{
   text-decoration:none;
@@ -2876,6 +2887,8 @@ ul.sdt_menu li{
   height:85px;
   position:relative;
   cursor:pointer;
+  display: inline-block;
+
 }
 ul.sdt_menu li > a{
   position:absolute;
@@ -2911,7 +2924,18 @@ ul.sdt_menu li span.sdt_wrap{
 }
 ul.sdt_menu li span.sdt_active{
   position:absolute;
-  background:#111;
+    background-image: -webkit-gradient(
+	    linear,
+	    left top,
+	    left bottom,
+	    color-stop(0.15, #4A0A12),
+	    color-stop(0.88, #871111)
+    );
+    background-image: -o-linear-gradient(bottom, #4A0A12 15%, #871111 88%);
+    background-image: -moz-linear-gradient(bottom, #4A0A12 15%, #871111 88%);
+    background-image: -webkit-linear-gradient(bottom, #4A0A12 15%, #871111 88%);
+    background-image: -ms-linear-gradient(bottom, #4A0A12 15%, #871111 88%);
+    background-image: linear-gradient(to bottom, #4A0A12 15%, #871111 88%);
   top:85px;
   width:170px;
   height:0px;
@@ -2935,7 +2959,7 @@ ul.sdt_menu li span span.sdt_link{
   clear:both;
 }
 ul.sdt_menu li span span.sdt_descr{
-  color:#0B75AF;
+  color:white;
   float:left;
   clear:both;
   width:155px; /*For dumbass IE7*/
@@ -2964,4 +2988,18 @@ ul.sdt_menu li div.sdt_box a:first-child{
 }
 ul.sdt_menu li div.sdt_box a:hover{
   color:#fff;
+}
+#navegacion{
+    background-image: -webkit-gradient(
+	    linear,
+	    left top,
+	    left bottom,
+	    color-stop(0.27, #8F6E21),
+	    color-stop(1, #D19C17)
+    );
+    background-image: -o-linear-gradient(bottom, #8F6E21 27%, #D19C17 100%);
+    background-image: -moz-linear-gradient(bottom, #8F6E21 27%, #D19C17 100%);
+    background-image: -webkit-linear-gradient(bottom, #8F6E21 27%, #D19C17 100%);
+    background-image: -ms-linear-gradient(bottom, #8F6E21 27%, #D19C17 100%);
+    background-image: linear-gradient(to bottom, #8F6E21 27%, #D19C17 100%);
 }
